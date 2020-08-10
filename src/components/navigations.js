@@ -40,7 +40,7 @@ class Navigation extends Component {
             style={{ textDecoration: "none", marginTop: "100px" }}
             to=""
           >
-            Software Product
+            Be Secure
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

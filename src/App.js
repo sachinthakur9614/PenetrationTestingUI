@@ -23,6 +23,7 @@ import {
 import Navigation from "./components/navigations";
 import login from "./components/login";
 import ForgotPassword from "./components/forgotpassword";
+import signup from "./components/signup";
 function App() {
   return (
     <BrowserRouter>
@@ -51,7 +52,7 @@ function App() {
         </head>
 
         <Route path="" exact component={Navigation} />
-        {/* <Route path="/signup" exact component={SignUp} /> */}
+        <Route path="/signup" exact component={signup} />
         <Route path="/login" exact component={login} />
         <Route path="/forgotpassword" exact component={ForgotPassword} />
         {/* <Route path="/website" exact component={Website} /> */}

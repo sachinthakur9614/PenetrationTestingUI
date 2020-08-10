@@ -27,6 +27,7 @@ import {
 import { IoMdLogIn } from "react-icons/io";
 
 import { GoAlert } from "react-icons/go";
+import FooterNavi from "./footer";
 
 // import Navigation from "./Navigation";
 // import FooterNavi from "./footer";
@@ -114,7 +115,8 @@ class login extends Component {
           </Row>
         </Container>
         <br></br>
-        {/* <FooterNavi /> */}
+        <br></br>
+        <FooterNavi />
       </Container>
     );
   }

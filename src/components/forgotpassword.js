@@ -10,6 +10,7 @@ import {
 } from "react-router-dom";
 
 import { IoMdLogIn } from "react-icons/io";
+import FooterNavi from "./footer";
 class ForgotPassword extends Component {
   constructor(props) {
     super(props);
@@ -93,6 +94,8 @@ class ForgotPassword extends Component {
             </Form>
           </Col>
         </Container>
+        <br></br>
+        <FooterNavi />
       </Container>
     );
   }
