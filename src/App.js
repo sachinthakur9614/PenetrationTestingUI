@@ -24,6 +24,8 @@ import Navigation from "./components/navigations";
 import login from "./components/login";
 import ForgotPassword from "./components/forgotpassword";
 import signup from "./components/signup";
+import Clients from "./components/clients";
+import AboutUs from "./components/aboutus";
 function App() {
   return (
     <BrowserRouter>
@@ -52,14 +54,16 @@ function App() {
         </head>
 
         <Route path="" exact component={Navigation} />
+
         <Route path="/signup" exact component={signup} />
         <Route path="/login" exact component={login} />
         <Route path="/forgotpassword" exact component={ForgotPassword} />
-        {/* <Route path="/website" exact component={Website} /> */}
+        <Route path="/clients" exact component={Clients} />
+        <Route path="/aboutus" exact component={AboutUs} />
+
         {/* <Route path="/android" exact component={Android} /> */}
         {/* <Route path="/iot" exact component={InternetOfThings} /> */}
         {/* <Route path="/machinelearning" exact component={MachineLearning} /> */}
-        {/* <Route path="/aboutus" exact component={AboutUs} /> */}
         {/* <Route path="/facilities" exact component={Facilities} /> */}
         {/* <Route path="/home" exact component={Home} /> */}
         {/* <Route path="/user" exact component={UserNavigation} /> */}

@@ -201,6 +201,10 @@ class signup extends Component {
           </Col>
         </Container>
         <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+
         <FooterNavi style={{ width: "100%" }} />
       </Container>
     );

@@ -29,7 +29,7 @@ class Navigation extends Component {
         collapseOnSelect
         expand="lg"
         style={{ height: "120px", textAlign: "end" }}
-        bg="warning"
+        bg="dark"
         variant="warning"
       >
         <Navbar.Brand href="home" to="home">
@@ -47,15 +47,15 @@ class Navigation extends Component {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link href="/facilities" to="facilities">
-              Facilities
+              Perform Penetration Testing
             </Nav.Link>
-            <Nav.Link href="website" to="services" className="text-primary">
-              Services
+            <Nav.Link href="clients" to="clients" className="text-primary">
+              Our Clients
             </Nav.Link>
             <Nav.Link href="aboutus" to="aboutus" className="text-primary">
               About Us
             </Nav.Link>
-
+            {/* 
             <NavDropdown
               title="Facilities"
               className="text-primary  "
@@ -91,7 +91,7 @@ class Navigation extends Component {
               >
                 <MdDevicesOther size="25" color="blue" /> Internet of Things{" "}
               </NavDropdown.Item>
-            </NavDropdown>
+            </NavDropdown> */}
           </Nav>
           <Nav>
             <Nav.Link href="/login" to="/login" className="text-primary">
